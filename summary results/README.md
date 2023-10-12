@@ -1,8 +1,15 @@
-# React + Vite
+# Summary Results
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Summary results is a project where I test my design skills with react and css.
 
-Currently, two official plugins are available:
+## Link
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Here is the [link](https://summary-result.web.app) to the project
+
+## Desktop design
+
+![Desktop design](https://ibb.co/5MsBmjZ)
+
+## Mobile design
+
+![Mobile design](https://ibb.co/gMX6jXS)
