@@ -8,8 +8,8 @@ Here is the [link](https://summary-result.web.app) to the project
 
 ## Desktop design
 
-![Desktop design](https://ibb.co/5MsBmjZ)
+[![](http://imgfz.com/i/nbz2jrQ.png)](http://imgfz.com/i/nbz2jrQ.png)
 
 ## Mobile design
 
-![Mobile design](https://ibb.co/gMX6jXS)
+[![](http://imgfz.com/i/GdNWmTu.png)](http://imgfz.com/i/GdNWmTu.png)
