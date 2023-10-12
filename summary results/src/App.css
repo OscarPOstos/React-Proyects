@@ -1,0 +1,49 @@
+:root {
+  --light_red: hsl(0, 100%, 67%);
+  --light_red_alpha: hsla(0, 100%, 67%, 0.081);
+  --orange_yellow: hsl(39, 100%, 56%);
+  --orange_yellow_alpha: hsl(39, 100%, 56%, 0.081);
+  --green_teal: hsl(166, 100%, 37%);
+  --green_teal_alpha: hsl(166, 100%, 37%, 0.081);
+  --cobalt_blue: hsl(234, 85%, 45%);
+  --cobalt_blue_alpha: hsl(234, 85%, 45%, 0.081);
+  --light_slate_blue: hsl(252, 100%, 67%);
+  --light_royal_blue: hsl(241, 81%, 54%);
+  --dark_gray_blue: hsl(224, 30%, 27%);
+  --pale_blue: hsl(221, 100%, 96%);
+  --light_lavender: hsl(241, 100%, 89%);
+  --violet_blue: hsla(256, 72%, 46%, 1);
+  --persian_blue: hsla(241, 72%, 46%, 0); 
+  --dark_gray_blue: hsl(224, 30%, 27%);
+  --pale_blue: hsl(221, 100%, 96%);
+}
+
+@font-face {
+  font-family: HankenGrotesk;
+  src: url(assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: HankenGrotesk;
+  src: url(assets/fonts/static/HankenGrotesk-Bold.ttf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: HankenGrotesk;
+  src: url(assets/fonts/static/HankenGrotesk-ExtraBold.ttf);
+  font-weight: 800;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}

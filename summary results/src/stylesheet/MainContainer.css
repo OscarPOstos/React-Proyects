@@ -1,0 +1,16 @@
+.main-container {
+    width: 700px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: var(--pale_blue) 13px 13px 15px 3px;
+    display: flex;
+}
+
+@media (max-width: 720px) {
+    .main-container {
+        width: 100%;
+        flex-direction: column;
+    }
+
+}
+

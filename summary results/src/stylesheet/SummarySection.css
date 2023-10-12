@@ -1,0 +1,47 @@
+.summary-section {
+    padding: 20px;
+    margin: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.light-red  {
+    background-color: var(--light_red_alpha);
+    color: var(--light_red);
+}
+
+.orange-yellow  {
+    background-color: var(--orange_yellow_alpha);
+    color: var(--orange_yellow);
+}
+
+.green-teal {
+    background-color: var(--green_teal_alpha);
+    color: var(--green_teal);
+}
+
+.cobalt-blue  {
+    background-color: var(--cobalt_blue_alpha);
+    color: var(--cobalt_blue);
+}
+
+.category {
+    flex-grow: 1;
+    text-align: left;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.category img {
+    margin-right: 10px;
+}
+
+.score {
+    align-self: flex-end;
+    color: #939ca3;
+    font-size: 18px;
+    font-weight: 800;
+}
