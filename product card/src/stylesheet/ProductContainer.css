@@ -1,0 +1,14 @@
+.product-container {
+    width: 640px;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+}
+
+@media (max-width: 650px) {
+    .product-container {
+        width: 90%;
+        flex-direction: column;
+        margin: 10px;
+    }
+}

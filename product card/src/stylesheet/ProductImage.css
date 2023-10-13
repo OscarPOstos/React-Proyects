@@ -1,0 +1,20 @@
+
+.product-image {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-image: url("../assets/images/image-product-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex: 2;
+}
+
+@media (max-width: 650px) {
+    .product-image {
+        background-image: url("../assets/images/image-product-mobile.jpg");
+        flex: none;
+        height: 350px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 0px;
+    }
+}
+
