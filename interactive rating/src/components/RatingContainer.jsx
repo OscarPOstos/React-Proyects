@@ -16,7 +16,6 @@ function RatingContainer({clickfunction}) {
 
     const selectScore = (feedback) => {
         let tempButtons = [...initialButtons];
-        console.log(initialButtons)
         setScore(feedback);
         tempButtons[feedback] = (<ScoreButton key={feedback + 1} score={feedback + 1} selected={"selected"} click={() => selectScore(feedback)}/>);
         setButtons(tempButtons);
