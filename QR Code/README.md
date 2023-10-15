@@ -12,4 +12,4 @@ Here is the [link](https://qrcode-66970.web.app) to the project
 
 ## Mobile design
 
-[![](http://imgfz.com/i/pwdNC1B.png)](http://imgfz.com/i/pwdNC1B.png)
+[![](http://imgfz.com/i/8SXjPaY.png)](http://imgfz.com/i/8SXjPaY.png)
