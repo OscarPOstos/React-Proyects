@@ -1,0 +1,40 @@
+.qrcode-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Outfit';
+    width: 340px;
+}
+
+.qrcode-image {
+    width: 300px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 18px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    color: var(--grayish_blue);
+}
+
+@media (max-width: 400px) {
+    .qrcode-container {
+        width: 95%;
+        margin: 10px;
+    }
+
+    .qrcode-image {
+        width: 95%;
+    }
+}
