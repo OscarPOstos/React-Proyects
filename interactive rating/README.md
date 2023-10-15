@@ -4,7 +4,7 @@ Interactive is a project where I test my logic and design skills with react and 
 
 ## Link
 
-Here is the [link](https://product-card-25454.web.app) to the project
+Here is the [link](https://interactive-rating-e8616.web.app/) to the project
 
 ## Desktop design
 
