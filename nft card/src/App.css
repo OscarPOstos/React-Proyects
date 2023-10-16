@@ -1,0 +1,7 @@
+body {
+  background-color: var(--very_dark_blue_main);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
