@@ -1,0 +1,21 @@
+body {
+  min-height: 100vh;
+  background-image: url("assets/images/pattern-background-desktop.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.layer {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsla(225, 100%, 94%, 0.723);
+}
+
+@media (max-width: 500px) {
+  body {
+    background-image: url("assets/images/pattern-background-mobile.svg");
+    background-size: cover;
+  }
+}
