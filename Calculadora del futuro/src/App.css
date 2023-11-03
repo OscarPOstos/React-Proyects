@@ -1,0 +1,24 @@
+@keyframes background-effect {
+  0% {
+    box-shadow: rgb(255, 0, 0) 0px 0px 10000px 25px;
+  }
+  100% {
+    box-shadow: rgb(255, 0, 0) 0px 0px 10000px 50px;
+  }
+}
+
+main {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Background-Effect {
+  position: absolute;
+  width: 100%;
+  height: 0px;
+  animation: background-effect 2s infinite alternate;
+  animation-delay: 0s;
+  bottom: 0;
+}

@@ -1,0 +1,24 @@
+
+.button-container {
+    border-radius: 50px;
+    box-shadow: white 0px 0px 5px;
+    width: max-content;
+}
+
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 3px solid white;
+    color: white;
+    transition: all 0.5s;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}

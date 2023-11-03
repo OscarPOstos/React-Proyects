@@ -1,0 +1,35 @@
+:root {
+  --black_background: #0c0c0c;
+}
+
+@keyframes red-effect {
+  0% {
+      box-shadow: rgb(255, 255, 255) 0px 0px 0px;
+  }
+  25% {
+      box-shadow: rgb(255, 255, 255) 0px 0px 20px;
+  }
+  50% {
+      box-shadow: rgba(255, 255, 255, 0.758) 0px 0px 40px;
+  }
+  75% {
+      box-shadow: rgba(255, 255, 255, 0.39) 0px 0px 80px;
+  }
+  100% {
+      box-shadow: rgba(255, 101, 101, 0) 0px 0px 100px;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--black_background);
+}
+
+.animated {
+  animation: red-effect 0.5s;
+}
